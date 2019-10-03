@@ -1,0 +1,51 @@
+package OneBean;
+
+public class beanReg {
+private String fname;
+private String mailid;
+private String pass;
+private double number;
+private String addr;
+private long patid;
+
+
+public String getFname() {
+	return fname;
+}
+public void setFname(String fname) {
+	this.fname = fname;
+}
+public String getMailid() {
+	return mailid;
+}
+public void setMailid(String mailid) {
+	this.mailid = mailid;
+}
+public String getPass() {
+	return pass;
+}
+public void setPass(String pass) {
+	this.pass = pass;
+}
+public double getNumber() {
+	return number;
+}
+public void setNumber(double number) {
+	this.number = number;
+}
+public String getAddr() {
+	return addr;
+}
+public void setAddr(String addr) {
+	this.addr = addr;
+}
+public long getPatid() {
+	return patid;
+}
+public void setPatid(long patid) {
+	this.patid = patid;
+}
+
+
+
+}
