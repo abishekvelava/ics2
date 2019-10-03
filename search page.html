@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="register.css">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<h2>Search Page</h2>
+
+
+<form action="/action_page.php" method="post">
+<div class="topnav">
+  	<a href="#">Home</a>
+  	<a href="#">View Doctor</a>
+  	<a href="#">View Patient</a>
+  	<a href="#">Logout</a>
+  </div>	
+  
+
+  <div class="container">
+    <label for="fname"><i class="fa fa-user"></i> <b>Category</b></label> <span class="required">*</span>
+            <input type="text" id="fname" name="Category" placeholder="Category"><br>
+
+    
+    <label for="mail"><i class="fa fa-envelope"></i><b> Reason</b></label><span class="required">*</span>
+    <input type="Reason" placeholder="Enter your Reason" name="Reason" required><br><br>
+  	  
+    <label for="loc"><i class="fa fa-address-card-o"></i><b>Location</b></label><span class="required">*</span>
+    <input type="text" id="adr" name="location" placeholder="Location" required><br>
+    
+    
+        
+    <button type="submit">Search</button>
+    
+  </div>
+
+  
+</form>
+
+
+</body>
+</html>
